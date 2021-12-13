@@ -1,0 +1,57 @@
+.logo {
+    width: 250px
+}
+.logo-box {
+    color: aqua
+}
+body {
+    background-image: url(/src/img/background.png);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: scroll
+}
+.other_download_version {
+    color: gray
+}
+.other_download_version:hover {
+    color: gray;
+    cursor: pointer
+}
+
+.btn-outline-purple {
+    color: #901ec5;
+    border-color: #901ec5
+}
+.btn-outline-purple:hover {
+   color:#fff;
+   background-color:#901ec5;
+   border-color:#901ec5
+}
+.btn-check:focus+.btn-outline-purple,.btn-outline-purple:focus {
+   box-shadow:0 0 0 .25rem rgba(144,30,197,.5)
+}
+.btn-check:active+.btn-outline-purple,.btn-check:checked+.btn-outline-purple,.btn-outline-purple.active,.btn-outline-purple.dropdown-toggle.show,.btn-outline-purple:active {
+   color:#fff;
+   background-color: #901ec5;
+   border-color: #901ec5
+}.btn-check:active+.btn-outline-purple:focus,.btn-check:checked+.btn-outline-purple:focus,.btn-outline-purple.active:focus,.btn-outline-purple.dropdown-toggle.show:focus,.btn-outline-purple:active:focus {
+   box-shadow:0 0 0 .25rem rgba(144,30,197,.5)
+}
+.btn-outline-purple.disabled,.btn-outline-purple:disabled {
+   color:#901ec5;
+   background-color:transparent
+}
+.with_normal {
+    width: 750px
+}
+.card_oher_version {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.progress {
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+.bg-purple {
+    background-color: #901ec5 !important;
+}
