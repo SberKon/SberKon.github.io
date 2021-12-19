@@ -1,14 +1,21 @@
 .logo {
-    width: 250px
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 15px
+}
+.logo-christmas {
+    width: 278px;
+    margin-top: 10px;
+    margin-bottom: 10px
 }
 .logo-box {
-    color: aqua
+    min-height: 0
 }
 body {
-    background-image: url(/img/background.png);
+    background-image: url(/src/img/background.png);
     height: 100vh;
     background-size: cover;
-    background-attachment: scroll
+    background-attachment: scroll;
 }
 .other_download_version {
     color: gray
