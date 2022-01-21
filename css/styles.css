@@ -40,7 +40,7 @@ body {
    border-color:#901ec5
 }
 .btn-check:focus+.btn-outline-purple,.btn-outline-purple:focus {
-   box-shadow:0 0 0 .25rem rgba(144,30,197,.5)
+   box-shadow: none
 }
 .btn-check:active+.btn-outline-purple,.btn-check:checked+.btn-outline-purple,.btn-outline-purple.active,.btn-outline-purple.dropdown-toggle.show,.btn-outline-purple:active {
    color:#fff;
